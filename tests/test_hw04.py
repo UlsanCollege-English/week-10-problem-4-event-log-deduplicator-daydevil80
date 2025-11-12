@@ -1,4 +1,9 @@
 
+
+import sys, os, random
+# ✅ ensure we can import main.py from parent folder
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
 from main import make_set, add, contains, remove, size
 
 # ---- Normal tests (4) ----
